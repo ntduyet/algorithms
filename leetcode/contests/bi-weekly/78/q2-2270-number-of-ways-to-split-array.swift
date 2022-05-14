@@ -2,7 +2,7 @@
 
 /*
 - Calculate `total` denoting the sum of all elements
-- Iterate over every index `i` from `0..<n - 1` and keep track `leftSum` denoting the sum of all elements from `0...i``
+- Iterate over every index `i` from `0..<n - 1` and keep track `leftSum` denoting the sum of all elements from `0...i`
     - As we already know `total` and `leftSum`, we should also know `rightSum = total - leftSum`
     - If `leftSum >= rightSum`, increase the result by 1
 
